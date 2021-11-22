@@ -20,3 +20,7 @@ If you want to know if you've gotten sufficient coverage for your sequencing run
 **Count unique barcodes, compare to barcode-variant map**
 
 Use the script `misc_scripts/count_unique_bcs.py`. Be sure to edit script if you want to run this without a barcode-variant map (see script for details).
+
+**Collapse barcode counts by variant**
+
+In progress
