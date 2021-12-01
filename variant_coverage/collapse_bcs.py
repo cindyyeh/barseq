@@ -1,8 +1,8 @@
 '''
 Written by Chiann-Ling Cindy Yeh, updated 11/30/2021
 This script groups barcodes by variants and counts how many reads are associated with each variant; works with maps where a barcode is being mapped to more than one gene (e.g., Ste5 and Ste7 on the same amplicon with the barcode)
-First argument: path to tab-delimited barcode-variant map (first column barcode, other columns contain variant info. can be in any format)
-Second argument: path to tab-delimited barcode-counts file (first column barcode, sequence column counts)
+First argument: path to tab-delimited barcode-variant map (first column barcode, other columns contain variant info. doesn't necessarily have to be a sequence (can be unique identifier). aka output from PacRAT https://github.com/dunhamlab/PacRAT )
+Second argument: path to tab-delimited barcode-counts file (first column barcode, sequence column counts, aka the output of misc_scripts/count_unique_bcs.py)
 Third argument: name of output file
 
 Output file: 
