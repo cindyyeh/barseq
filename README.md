@@ -23,4 +23,4 @@ Use the script `misc_scripts/count_unique_bcs.py`. Be sure to edit script if you
 
 **Collapse barcode counts by variant**
 
-In progress
+Use the script `variant_coverage/collapse_bcs.py` to determine how much coverage you have per variant. See script for details on input/output files.
