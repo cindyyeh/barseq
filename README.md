@@ -31,4 +31,4 @@ Use the script `misc_scripts/get_mutations.py`. See script header for details on
 
 **Generating new index barcodes (or barcodes in general) while avoiding overlap with existing indices in Dunham lab**
 
-Use script `generate_new_index/make_index.py`. See script header for details. An existing .txt file contains barcodes (last updated 3/8/22 from custom_indices file in Dunham Shared Drive); please update it if more barcodes have been added since.
+Use script `generate_new_index/make_index.py`. See script header for details. An existing .txt file contains barcodes (last updated 3/8/22 from custom_indices file in Dunham Shared Drive); please update it if more barcodes have been added since. Scripts `editdist.py` contains the function for calculating edit ditance.
